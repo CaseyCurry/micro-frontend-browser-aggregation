@@ -5,8 +5,8 @@ to run the chunk-server...
 cd ./chunk-server
 npm install
 cd ./src/domain-apps/bakery && npm run build:dev
-cd ../src/cashier && npm run build
-cd ../src/building-maintenance && npm run build
+cd ../cashier && npm run build
+cd ../building-maintenance && npm run build
 cd ../../../
 node ./src/host.js
 ```
