@@ -20,7 +20,7 @@ node ./src/host.js
 
 Open http://localhost:8091.
 
-###TODO
+# TODO
 
 1. In this demo, the chunks on the chunk-server render the element.
    Instead nh-chunk should just register a custom element in the window.
