@@ -31,7 +31,12 @@ Open http://localhost:8091.
    would have to be written in nh-chunk to optimize the http traffic).
 2. CSS should be loaded before adding the chunk to the DOM. This problem
    should naturally go away with the implementation of the TODO above.
-3. Considering using polyfill for <link rel="import" type="text/html" href="...">
+3. Considering using polyfill for
+
+```
+<link rel="import" type="text/html" href="...">
+```
+
 4. slow chunks shouldn't effect fast chunks
    consider both slow downloading and slow rendering once the chunk is
    downloaded
